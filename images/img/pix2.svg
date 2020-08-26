@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="732.462" viewBox="0 0 1920 732.462">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ff89"/>
+      <stop offset="1" stop-color="#00a7ff"/>
+    </linearGradient>
+  </defs>
+  <clipPath id="bgClip">
+  <path id="pexels-photo-238622" d="M360,560.327S535.877,757.345,698.629,722.8s199.919-152.96,390.827-151.914S1312.995,838.2,1561.4,686.113s406.848-209.742,511.2-185.222S2280,584.379,2280,584.379V.565H360Z" transform="translate(-360 -0.565)" opacity="0.697" fill="url(#linear-gradient)"/>
+  </clipPath>
+</svg>
