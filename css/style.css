@@ -17,6 +17,9 @@ body {
   text-transform: uppercase;
   color: white;
 }
+.btn:hover {
+  box-shadow: -4px 4px 28px -4px rgba(0, 0, 0, 0.75);
+}
 
 .btn-primary {
   background: linear-gradient(#ffa8e1 0%, #00a7ff 100%);
@@ -107,7 +110,7 @@ header .navbar .burger div {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 }
 .home .content-up .text-content {
   width: 40%;
@@ -148,6 +151,9 @@ header .navbar .burger div {
   clip-path: url("#bgClip");
 }
 
+.info {
+  margin: 3rem 0;
+}
 .info .title {
   text-align: center;
 }
@@ -155,16 +161,16 @@ header .navbar .burger div {
   font: normal 500 60px/50px Lato;
 }
 .info .application {
-  margin: 5rem 0;
+  padding: 3rem 0;
   display: flex;
-  flex-direction: row-reverse;
+  width: 100%;
   justify-content: center;
-  align-items: center;
 }
 .info .application .app-bg {
-  padding: 2rem 2rem;
-  width: 50%;
+  width: 100%;
+  max-width: 50%;
   display: flex;
+  justify-content: center;
 }
 .info .application .app-bg .flex-row {
   margin: 0 1rem;
@@ -172,8 +178,7 @@ header .navbar .burger div {
   flex-wrap: wrap;
 }
 .info .application .app-text {
-  width: 50%;
-  padding: 0rem 3rem;
+  width: 40%;
 }
 .info .application .app-text .title-app h1 {
   font: normal 500 50px/50px Lato;
@@ -188,6 +193,103 @@ header .navbar .burger div {
 .info .application .app-text .title-app .btn-download {
   display: flex;
   justify-content: center;
+}
+.info.second .application .app-bg {
+  position: relative;
+}
+.info.second .application .app-bg .img2 img {
+  position: absolute;
+  left: 10vw;
+}
+.info.second .application .image-sub {
+  width: 100%;
+}
+
+.banner .banner-bg {
+  position: relative;
+  height: 50vh;
+  background: #0ceba0 url("../images/img/pexels-bg.png") no-repeat;
+  display: flex;
+}
+.banner .banner-bg .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  background: linear-gradient(#00ff89 0%, #00a7ff 100%);
+}
+.banner .banner-bg i {
+  color: white;
+  margin: auto;
+  font-size: 100px;
+  z-index: 1;
+  cursor: pointer;
+}
+.banner .testimonials {
+  padding: 3rem 0;
+}
+.banner .testimonials .title {
+  text-align: center;
+}
+.banner .testimonials .title h1 {
+  font: normal 500 60px/50px Lato;
+}
+.banner .testimonials .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.banner .testimonials .flex-row .testimonial {
+  padding: 1rem 2rem;
+  margin: 2rem 2rem;
+  width: 20rem;
+  transition: box-shadow 0.6s ease;
+}
+.banner .testimonials .flex-row .testimonial:hover {
+  box-shadow: -4px 4px 28px -4px rgba(0, 0, 0, 0.75);
+}
+
+footer .footerform {
+  padding: 2rem 0;
+  width: 60%;
+  box-shadow: -4px 4px 28px -4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  transition: box-shadow 0.6s ease;
+}
+footer .footerform .flex-width {
+  margin: 2rem 0;
+  width: 50%;
+}
+footer .footerform .flex-width .form-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 2rem;
+}
+footer .footerform .flex-width .form-group input {
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  outline: none;
+}
+footer .footerform .flex-width .form-group button {
+  margin: 0 1rem;
+  outline: none;
+}
+footer .footerform .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footerform .title h1 {
+  font: normal 500 60px/50px Lato;
+}
+footer .footerform:hover {
+  box-shadow: -4px 4px 28px -4px rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=style.css.map */
